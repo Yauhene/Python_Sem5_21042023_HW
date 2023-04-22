@@ -16,6 +16,7 @@
 
 print()
 beds = [8, 5 , 7, 4]
+#beds = [1, 2, 3, 4]
 beds_count = 3
 harvest_count = len(beds)
 harvests = []
@@ -43,6 +44,6 @@ for i in range(1, len(harvests)):
         max_harvester = harvests[i]
         max_ind = i
     
-print(f'Максимальный урожай {max_harvester} ягод с {beds_count} кустов')
+print(f'Максимальный урожай {max_harvester} ягод с {beds_count}-х кустов')
 print(f'можно получить начиная уборку с куста номер {max_ind+1} по порядку')
 print()
